@@ -22,7 +22,7 @@ const names:string[] = ['홍길동', '홍길순', '홍길영']; // 객체지정�
 console.log(names);
 
 
-// 초기값 : undefined(원시데이터 초기값) , null(참조, 객체 데이터 초기값)
+// 초기값 : undefined(원시데이터 초기값) , null(참조, 객체 데이터 초기값, 힙에 주소가 없을 때)
 const initName: undefined = undefined;
 const initArray: null = null;
 console.log(initName, initArray);
